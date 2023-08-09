@@ -1,0 +1,88 @@
+body {
+  background-image: linear-gradient(
+    135deg,
+    #8c6e7f,
+    #7d6078,
+    #6c5472,
+    #59486d,
+    #433e67,
+    #34406a,
+    #22426b,
+    #00446a,
+    #00506f,
+    #005c70,
+    #00676f,
+    #20716b
+  );
+}
+
+.container {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 400px;
+  padding: 16px;
+  max-height: 400px;
+  background-image: linear-gradient(
+    to right top,
+    #8c6e7f,
+    #7d6078,
+    #6c5472,
+    #59486d,
+    #433e67,
+    #34406a,
+    #22426b,
+    #00446a,
+    #00506f,
+    #005c70,
+    #00676f,
+    #20716b
+  );
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px 5px rgba(70, 35, 18, 0.288);
+  text-align: left; /* Aligns the labels and inputs to the left */
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  display: block;
+color: white;
+font-size: 1.2rem;
+font-weight: 200;
+  margin: 10px 15px 10px 30px;
+}
+
+input[type="text"],
+input[type="submit"] {
+  width: 80%;
+  padding: 10px;
+
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 1rem;
+  justify-content: center;
+  margin: auto;
+}
+
+input[type="submit"] {
+  background-color: #889c89;
+  color: white;
+  cursor: pointer;
+  margin-top: 30px;
+  font-size: 1rem;
+  width: 50%;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
